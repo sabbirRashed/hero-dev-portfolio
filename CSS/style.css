@@ -38,6 +38,12 @@
     font-size: 1.25rem;
 }
 
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 /* main style */
 header{
     background-color: #FFF8F3;
@@ -119,4 +125,43 @@ nav .menue a{
     max-width: 585px;
     display: block;
     border-radius: 20px;
+}
+
+/* about section */
+.about{
+    width: 70%;
+    max-width: 1140px;
+    background-color: #FFF8F3;
+    margin: 130px auto 0;
+    padding: 130px 155px;
+    border-radius: 20px;
+}
+
+.about-info{
+    max-width: 827px;
+    margin: 30px auto 0;
+    font-size: 1.125rem;
+    text-align: center;
+    
+}
+
+.cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    text-align: center;
+}
+
+.cards .card p{
+    font-size: 1.25rem;
+}
+
+.cards .card h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #474747;
 }
