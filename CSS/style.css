@@ -17,6 +17,18 @@
     color: #FD6E0A;
 }
 
+.color-primary{
+    color: #181818;
+}
+
+.color-secondary{
+    
+}
+
+.tershiary-color{
+    color: #757575;
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     border: none;
@@ -30,6 +42,9 @@
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 38px 23px, bottom right;
 }
 
 .nav-bar{
@@ -60,4 +75,48 @@ nav .menue a{
     color: #474747;
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+.banner{
+    /* border: 1px solid red; */
+    margin: 46px 38px 0 230px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner .banner-content h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner .banner-content h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner .banner-content p{
+    font-family: 1.125rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.btn-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+.banner-image img{
+    max-width: 585px;
+    display: block;
+    border-radius: 20px;
 }
