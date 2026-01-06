@@ -21,10 +21,6 @@
     color: #181818;
 }
 
-.color-secondary{
-    
-}
-
 .tershiary-color{
     color: #757575;
 }
@@ -137,7 +133,7 @@ nav .menue a{
     border-radius: 20px;
 }
 
-.about-info{
+.about-info,.section-info{
     max-width: 827px;
     margin: 30px auto 0;
     font-size: 1.125rem;
@@ -164,4 +160,12 @@ nav .menue a{
     font-size: 1.25rem;
     font-weight: 700;
     color: #474747;
+}
+
+/* to do section */
+.to-do{
+    width: 70%;
+    max-width: 1140px;
+    margin: 130px auto 0;
+    text-align: center;
 }
