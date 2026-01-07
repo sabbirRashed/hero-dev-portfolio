@@ -61,7 +61,7 @@ header{
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: 900;
 }
 
@@ -89,23 +89,21 @@ nav .menue a{
 
 }
 
-.banner-content{
-    max-width: 585px;
-}
 
 .banner .banner-content h3{
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: 600;
     color: #474747;
 }
 
 .banner .banner-content h2{
-    font-size: 4rem;
+    font-size: 5.2rem;
     font-weight: 700;
     margin-top: 5px;
 }
 
 .banner .banner-content p{
+    max-width: 585px;
     font-family: 1.125rem;
     font-weight: 400;
     margin-top: 20px;
@@ -199,3 +197,41 @@ nav .menue a{
     margin:30px 0px 20px;
 
 }
+
+.resume{
+    width: 70%;
+    max-width: 1140px;
+    margin: 130px auto 0;
+}
+
+.resume-container{
+    margin-top: 112px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.edu-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #474747;
+}
+
+.edu-card{
+    max-width: 512px;
+    margin: 30px 47px 30px 0px;
+}
+
+.edu-card>h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #474747;
+}
+
+.edu-card>h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #474747;
+    margin: 10px 0px 20px;
+}
+
